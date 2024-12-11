@@ -11,15 +11,28 @@
 //const confirma = confirm ('Reaalmente deseja apagar?'); //aparece um valor boolean no navegador
 //console.log (confirma); 
 
-//let confirma = confirm ('qualquer mensagem')
 /**
  outra coisa que podemos salvar em variaveis é a função prompt.
  tudo que o usuário digitar na função prompt vai ser retornado como string.
  como converter os dados que o usuario forneceu (string) em number?
  exercicio:
- */
+
+ let num1 = prompt ("Digite um número");
+let num2 = prompt ("Digite um número")
+
+num1 = Number (num1);
+num2 = Number (num2);
+/*console.log (num1 + num2);
+alert('O resultado da sua conta foi: ' + resultado);
+*/
+
+
 let num1 = prompt ("Digite um número");
 let num2 = prompt ("Digite um número")
-console.log(num1, num2);
-num1 = Number (num1)
-num2 = Number 
+
+num1 = Number (num1);
+num2 = Number (num2);
+/*console.log (num1 + num2);*/
+
+/*formula mais moderna e retorna o msm resultado*/
+alert(`O resultado da sua conta foi: ${num1 + num2}`); /*usado em codigo simples, em complexos nao eh bom.*/
